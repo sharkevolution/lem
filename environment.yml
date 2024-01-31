@@ -1,0 +1,35 @@
+name: my-environment
+channels:
+  - conda-forge
+  - conda
+
+dependencies:
+  - python==3.11
+  - cython
+  - numpy
+  - pip
+ 
+  - pip:
+    - jupyterlab
+    - ipywidgets
+    - ipyparallel
+    - ipyleaflet
+    - ipydatagrid
+
+    - pyviz-comms
+    - panel
+    - python-dateutil		# matplotlib, pandas
+    - pytz              	# via pandas
+    - six               	# via cycler, python-dateutil
+    - matplotlib
+    - numpy
+    - pyarrow
+    - pandas
+    - openpyxl
+    - tqdm
+
+    - pymorphy3~=2.0.1
+    - pymorphy3-dicts-ru
+    - pymorphy3-dicts-uk
+    - gspread
+    - langdetect
